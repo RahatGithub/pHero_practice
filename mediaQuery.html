@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: flex;   
+            flex-direction: row;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .shoe{
+            border: 2px solid rgb(189, 56, 52);
+            border-radius: 20px;
+            width: 350px;
+            background-color: rgb(212, 156, 71);
+            margin: 10px;
+            padding: 10px;
+        }
+        .shoe img{
+            width: 100%;
+        }
+        @media (max-width: 800px){
+            .container{
+                flex-direction: column;
+            }
+        }
+        @media (min-width: 1200px){
+            .container .show{
+                background-color: slateblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="shoe">
+            <img src="images/shoe.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolorum reiciendis cum consectetur consequatur modi itaque id. Esse velit nihil dolorem adipisci error omnis dolor aliquid repellat maiores dolore iste nobis facere non ea, inventore aspernatur autem ipsa in est eos quis at numquam placeat beatae. Tempora doloremque consectetur voluptatibus.</p>
+        </div>
+        <div class="shoe">
+            <img src="images/shoe.png" alt="">
+            <p>Inventore reprehenderit aperiam aspernatur. Ea inventore nostrum numquam saepe necessitatibus quibusdam ipsum, nulla ipsa quo doloribus, quia quisquam? Nesciunt expedita rerum unde, amet, ipsam quisquam culpa quidem officia nam ab voluptatibus soluta. Necessitatibus magni quis rerum alias, ipsa commodi harum fugiat perferendis tempora neque nam est sint blanditiis non ab.</p>
+        </div>
+        <div class="shoe">
+            <img src="images/shoe.png" alt="">
+            <p>Placeat aliquam unde architecto ratione quia error temporibus? Explicabo dignissimos optio laudantium quis nihil eum quos sapiente laboriosam, eveniet dolor quia eligendi ipsum quasi molestiae tempora temporibus earum aspernatur magnam nostrum labore placeat dolore a. Aspernatur tempora consequatur fugiat voluptate veritatis vel distinctio, eum quas commodi quo pariatur. Iste, nam?</p>
+        </div>
+        <div class="shoe">
+            <img src="images/shoe.png" alt="">
+            <p>Mollitia corrupti quam, obcaecati, modi facilis dolore id adipisci facere, quidem vel nihil non ducimus ad voluptate? Ullam ad voluptatem ea culpa? Ab dolorum velit ipsum. Alias in ex, iste neque et dolore voluptates nemo praesentium, deserunt sed, cumque reiciendis aliquam. Deserunt deleniti quo, perferendis voluptatum magni accusamus itaque aspernatur?</p>
+        </div>
+        <div class="shoe">
+            <img src="images/shoe.png" alt="">
+            <p>Recusandae, in autem illo aliquam, ratione minima nisi nobis vitae quo ipsa quod veritatis quisquam et odit nostrum necessitatibus consequuntur eligendi cumque similique! Amet voluptates, sunt nesciunt debitis quam magnam, accusantium ut corrupti nostrum neque ullam, laboriosam aut facilis. Molestiae dolore recusandae dicta illum quo repudiandae esse nisi officia reiciendis!</p>
+        </div>
+        <div class="shoe">
+            <img src="images/shoe.png" alt="">
+            <p>Ipsam dolor atque corporis laboriosam, fugit, nisi quas voluptatibus officiis fuga perspiciatis obcaecati iste nobis dolorem? Ex quaerat ab, accusantium quo molestias ea reprehenderit molestiae architecto similique! Ducimus numquam quia eius perspiciatis earum odio, dicta temporibus iusto autem provident deleniti quo quam optio asperiores repellendus ipsa impedit sapiente, sequi corporis!</p>
+        </div>
+    </div>
+
+</body>
+</html>
